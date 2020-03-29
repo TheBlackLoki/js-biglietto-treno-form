@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sinistri Trasporti</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- titolo calcolo biglietto -->
+
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+
+    <!-- sezione inserimento dati 3 box -->
+
+    <section id="top">
+      <div class="nome inline">
+        <h5>Noe Cognome</h5>
+        <input id="name" type="text" name="" value="">
+      </div>
+      <div class="KmPercorsi inline">
+        <h5>Km da percorrere</h5>
+        <input id="km" type="text" name="" value="">
+      </div>
+      <div class="fascia inline">
+        <h5>Età passeggero</h5>
+        <input id="eta" type="text" name="" value="">
+      </div>
+    </section>
+
+    <!-- sezione genera o annulla -->
+
+    <section>
+      <button id="genera" type="button" name="button">Genera</button>
+      <button id="annulla" type="button" name="button">Annulla</button>
+    </section>
+
+    <!-- titolo biglietto -->
+
+    <h2>IL TUO BIGLIETTO</h2>
+
+    <!-- sezione output utente biglietto nome + 4 colonne dettagli-->
+
+    <section id="bottom" class="nascondi">
+      <h4>DETTAGLIO PASSEGGERI</h4>
+      <div id="inline passeggero">
+        <h4>NOME PASSEGGERO</h4>
+        <span id="nomePasseggero"></span>
+      </div>
+      <table id="inline">
+        <tr>
+          <th>Offerta</th>
+          <th>Carrozza</th>
+          <th>Codice CP</th>
+          <th>Costo Biglietto</th>
+        </tr>
+        <tr>
+          <td id="offerta"></td>
+          <td id="carrozza"></td>
+          <td id="codiceCP"></td>
+          <td id="costoBiglietto"></td>
+        </tr>
+      </table>
+    </section>
+    <script type="text/javascript" src="javascript/main.js"></script>
+  </body>
+</html>
